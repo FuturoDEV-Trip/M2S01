@@ -7,11 +7,30 @@
     
     <link rel="stylesheet" href="/styles/main.css">
 
+    <style>
+        /* :root {
+            color-scheme: light dark;
+        }
+        h1 {
+            color: light-dark(black, purple);        
+        } */
+
+        h1 ~ p {
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            padding: .5em;
+            }
+    </style>
 </head>
 <body>
-    <h1>Introdução ao CSS</h1>
+    <div>
+        <h1>Introdução ao CSS</h1>
+        <p>Lorem, ipsum.</p>
+        
+    </div>
     <h2 id="subtitulo">Introdução ao CSS</h2>
-
+    <input type="week">
     <!-- <form>
         <label for="unico">quando clicar aqui, ele vai ativar os checkbox</label> <br>
         <label for="unico2">quando clicar aqui, ele vai ativar os checkbox 222</label>
@@ -46,6 +65,10 @@
 
     <input type="email" placeholder="Informe seu e-mail">
 
+    <div class="container-full">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
     <div class="container-full">
         <div class="box-item"></div>
     </div>
